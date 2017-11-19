@@ -25,3 +25,10 @@ function prependKitten(name){
   return ['Arnold', ...kittens];
 }
 
+function removeLastKitten(){
+  kittens.shift(0, kittens.length - 1);
+}
+
+function removeFirstKitten(){
+  
+}
